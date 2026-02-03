@@ -1,0 +1,20 @@
+{
+  "name": "shell-llm",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Portable LLM CLI with smart routing and preprocessing via OpenRouter",
+  "main": "cli.js",
+  "bin": {
+    "shell-llm": "./cli.js",
+    "sllm": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "keywords": ["llm", "cli", "openrouter", "claude", "gpt"],
+  "license": "MIT"
+}
